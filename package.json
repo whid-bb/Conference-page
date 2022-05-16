@@ -21,9 +21,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "git@github.com:whid-bb/capstone-module-one/issues"
+    "url": "https://github.com/whid-bb/capstone-module-one/issues"
   },
-  "homepage": "git@github.com:whid-bb/capstone-module-one#readme",
+  "homepage": "https://github.com/whid-bb/capstone-module-one#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.5",
     "babel-eslint": "^10.1.0",
