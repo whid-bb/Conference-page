@@ -1,0 +1,8 @@
+@import "utils/reset";
+@import "utils/breakpoints";
+@import "header";
+
+body {
+  min-height: 2000px;
+  font-family: "Poppins", sans-serif;
+}
