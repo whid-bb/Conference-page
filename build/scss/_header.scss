@@ -1,4 +1,18 @@
 @import 'nav/site-navigation';
 
-header#main-top-header {
+#main-top-header {
+  #main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 68px;
+    padding: 1em;
+  }
+
+  .logo {
+    display: none;
+  }
 }

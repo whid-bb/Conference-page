@@ -2,7 +2,11 @@
   --dark-grey: #272a31;
   --orange: #ee5242;
   --light-grey: #d3d3d3;
+  --grey-bg: #2e2e2e;
+  --light-grey-bg: #555555;
 }
+
+@import 'utils/reset';
 
 @font-face {
   font-family: 'cocogoose';
@@ -12,7 +16,7 @@
 }
 
 @font-face {
-  font-family: 'cocogoose';
+  font-family: 'lato';
   src: url(../fonts/Lato-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -20,9 +24,9 @@
 
 body {
   min-height: 2000px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'lato';
 }
 
-@import 'utils/reset';
 @import 'utils/breakpoints';
+@import 'utils/helpers';
 @import 'header';

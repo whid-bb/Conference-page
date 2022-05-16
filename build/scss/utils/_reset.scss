@@ -7,15 +7,15 @@
     Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
     - The "symbol *" part is to solve Firefox SVG sprite bug
  */
+/* stylelint-disable */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+  all: unset;
+}
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
-  all: unset;
 }
 
 /* Preferred box-sizing value */
