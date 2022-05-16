@@ -6,19 +6,19 @@ const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    index: ['./src/index.js', './src/scss/base.scss'],
+    index: ['./build/index.js', './build/scss/base.scss'],
   },
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
     watchFiles: {
-      paths: ['./src/**/*'],
+      paths: ['./build/**/*'],
     },
   },
   plugins: [
     new HtmlWebpackPlugin({
       minify: true,
-      template: './src/index.html',
+      template: './build/index.html',
     }),
     new MiniCssExtractPlugin(),
     new WebpackManifestPlugin(),
@@ -27,7 +27,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, '../dist'),
     clean: true,
-    assetModuleFilename: './img/[hash][ext]',
+    assetModuleFilename: './[hash][ext]',
   },
   optimization: {
     runtimeChunk: 'single',

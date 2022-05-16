@@ -8,8 +8,8 @@
     "build": "webpack --config config/webpack.config.js",
     "watch": "webpack --config config/webpack.config.js --watch",
     "serve": "webpack serve --config config/webpack.config.js ",
-    "stylelint": "npx stylelint '**/*.{css}'",
-    "stylelintFix": "npx stylelint '**/*.{css}' --fix",
+    "stylelint": "npx stylelint '**/*.{css,scss}'",
+    "stylelintFix": "npx stylelint '**/*.{css,scss}' --fix",
     "hint": "npx hint .",
     "eslint": "npx eslint ."
   },

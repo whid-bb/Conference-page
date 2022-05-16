@@ -1,0 +1,28 @@
+:root {
+  --dark-grey: #272a31;
+  --orange: #ee5242;
+  --light-grey: #d3d3d3;
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url(../fonts/Cocogoose-Pro.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url(../fonts/Lato-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  min-height: 2000px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@import 'utils/reset';
+@import 'utils/breakpoints';
+@import 'header';
