@@ -21,14 +21,17 @@
   .logo {
     display: none;
   }
+
   #main-header-overlay {
     position: absolute;
     background-color: rgba(238, 238, 240, 0.95);
     z-index: -1;
   }
+
   #header-img-container {
     position: absolute;
     display: block;
+
     #header-img {
       background: url(../img/people-2607201_1920.jpg) no-repeat;
       background-size: cover;
@@ -38,14 +41,16 @@
       min-width: 400px;
       display: block;
       max-height: 15em;
+
       &::after {
         content: '';
         background: rgb(2, 0, 36);
-        background: linear-gradient(
-          180deg,
-          rgba(2, 0, 36, 0) 0%,
-          rgba(255, 255, 255, 1) 65%
-        );
+        background:
+          linear-gradient(
+            180deg,
+            rgba(2, 0, 36, 0) 0%,
+            rgba(255, 255, 255, 1) 65%
+          );
         position: absolute;
         height: 50px;
         width: 100%;

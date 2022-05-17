@@ -1,13 +1,13 @@
+@import 'utils/reset';
+
 :root {
   --dark-grey: #272a31;
   --orange: #ee5242;
   --light-orange: #f6a50e;
   --light-grey: #d3d3d3;
   --grey-bg: #2e2e2e;
-  --light-grey-bg: #555555;
+  --light-grey-bg: #555;
 }
-
-@import 'utils/reset';
 
 @font-face {
   font-family: 'cocogoose';
@@ -22,12 +22,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'lato-black';
   src: url(../fonts/Lato-Black.ttf) format('truetype');
   font-weight: bolder;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'lato-bold';
   src: url(../fonts/Lato-Bold.ttf) format('truetype');
@@ -37,7 +39,7 @@
 
 body {
   min-height: 2000px;
-  font-family: 'lato';
+  font-family: 'lato-normal';
   color: var(--dark-grey);
   min-width: 278px;
 }
@@ -47,7 +49,12 @@ h1 {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 @import 'utils/breakpoints';
 @import 'header';
 @import 'utils/helpers';
-@import 'sec-program/program';
+@import 'sections/sections';
+@import 'sections/program';

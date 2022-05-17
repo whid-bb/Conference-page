@@ -1,6 +1,7 @@
 #main-top-header {
   #m--menu-btn {
     --menu-btn-size: 35px;
+
     width: var(--menu-btn-size);
     height: var(--menu-btn-size);
     cursor: pointer;
@@ -25,6 +26,7 @@
       &::after {
         content: '';
         position: absolute;
+        left: 0;
       }
 
       &::before {
@@ -36,6 +38,7 @@
       }
     }
   }
+
   &.m--open {
     #m--menu-btn {
       z-index: 100;
@@ -44,17 +47,20 @@
         background-color: rgba(0, 0, 0, 0);
 
         &::before {
-          transform: translate(0px, 10px) rotate(45deg);
+          transform: translate(0, 10px) rotate(45deg);
         }
+
         &::after {
-          transform: translate(0px, -10px) rotate(-45deg);
+          transform: translate(0, -10px) rotate(-45deg);
         }
       }
     }
+
     #top-menu-list {
       opacity: 1;
       background-color: #fff;
     }
+
     #menu-list-container {
       visibility: visible;
     }
