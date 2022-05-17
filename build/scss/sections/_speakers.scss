@@ -1,0 +1,35 @@
+.fs-bg-img {
+  background: repeating-conic-gradient(#fff 0deg 90deg, #000 0 180deg) 0 0/20%
+    20%;
+  margin: 15px;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: 4;
+  left: -40px;
+  top: -40px;
+}
+
+#featured-speakers {
+  .section-head {
+    h2 {
+      color: var(--dark-grey);
+    }
+  }
+
+  .ss-speaker-img {
+    position: relative;
+    img {
+      position: relative;
+      max-width: 148px;
+      z-index: 5;
+    }
+  }
+
+  .speaker-desc {
+    p {
+      color: var(--dark-grey);
+    }
+  }
+}
