@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     index: ['./build/index.js', './build/scss/base.scss'],
   },
-  devtool: 'inline-source-map',
+  // devtool: 'inline-source-map',
   devServer: {
     static: './dist',
     watchFiles: {
@@ -29,9 +29,7 @@ module.exports = {
     clean: true,
     assetModuleFilename: './[hash][ext]',
   },
-  optimization: {
-    runtimeChunk: 'single',
-  },
+
   module: {
     rules: [
       {
@@ -74,5 +72,8 @@ module.exports = {
         type: 'asset/resource',
       },
     ],
+  },
+  optimization: {
+    runtimeChunk: 'single',
   },
 };

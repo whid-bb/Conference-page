@@ -1,3 +1,24 @@
+#top-menu-list {
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  font-size: clamp(1rem, 11vw, 2rem);
+  justify-content: space-evenly;
+}
+
+#menu-list-container {
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 #main-top-header {
   #m--menu-btn {
     --menu-btn-size: 35px;
@@ -65,28 +86,6 @@
       visibility: visible;
     }
   }
-}
-
-#menu-list-container {
-  visibility: hidden;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-#top-menu-list {
-  opacity: 0;
-  transition: all 0.1s ease-in-out;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-size: clamp(1rem, 11vw, 2rem);
-  justify-content: space-evenly;
 }
 
 .menu-list-item {

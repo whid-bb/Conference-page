@@ -1,5 +1,3 @@
-@import 'utils/reset';
-
 :root {
   --dark-grey: #272a31;
   --orange: #ee5242;
@@ -8,6 +6,8 @@
   --grey-bg: #2e2e2e;
   --light-grey-bg: #555;
 }
+
+@import 'utils/reset';
 
 @font-face {
   font-family: 'cocogoose';

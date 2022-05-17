@@ -44,7 +44,7 @@
 
 #conference-date {
   font-family: 'lato-black';
-  font-size: clamp(1.2rem, 7vw, 3rem);
+  font-size: clamp(1.2rem, 7vw, 3rem); /* stylelint-disable-line */
 
   p {
     font-weight: bold;

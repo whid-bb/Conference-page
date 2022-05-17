@@ -1,5 +1,6 @@
 .fs-bg-img {
-  background: repeating-conic-gradient(#fff 0deg 90deg, #000 0 180deg) 0 0/20%
+  background:
+    repeating-conic-gradient(#fff 0deg 90deg, #000 0 180deg) 0 0/20%
     20%;
   margin: 15px;
   padding: 10px;
@@ -20,6 +21,7 @@
 
   .ss-speaker-img {
     position: relative;
+
     img {
       position: relative;
       max-width: 148px;
