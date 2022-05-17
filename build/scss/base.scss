@@ -1,6 +1,7 @@
 :root {
   --dark-grey: #272a31;
   --orange: #ee5242;
+  --light-orange: #f6a50e;
   --light-grey: #d3d3d3;
   --grey-bg: #2e2e2e;
   --light-grey-bg: #555555;
@@ -16,17 +17,37 @@
 }
 
 @font-face {
-  font-family: 'lato';
+  font-family: 'lato-normal';
   src: url(../fonts/Lato-Regular.ttf) format('truetype');
   font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato-black';
+  src: url(../fonts/Lato-Black.ttf) format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato-bold';
+  src: url(../fonts/Lato-Bold.ttf) format('truetype');
+  font-weight: bold;
   font-style: normal;
 }
 
 body {
   min-height: 2000px;
   font-family: 'lato';
+  color: var(--dark-grey);
+  min-width: 278px;
+}
+
+p,
+h1 {
+  display: block;
 }
 
 @import 'utils/breakpoints';
-@import 'utils/helpers';
 @import 'header';
+@import 'utils/helpers';
+@import 'sec-program/program';

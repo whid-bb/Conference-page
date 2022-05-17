@@ -1,6 +1,5 @@
 const mobileNav = document.getElementById('m--menu-btn');
 const mainHeader = document.getElementById('main-top-header');
-mainHeader.classList.add('m--open');
 mobileNav.addEventListener('click', () => {
   mainHeader.classList.toggle('m--open');
 });

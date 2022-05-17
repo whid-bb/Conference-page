@@ -39,6 +39,7 @@
   &.m--open {
     #m--menu-btn {
       z-index: 100;
+
       .mm-stripes {
         background-color: rgba(0, 0, 0, 0);
 
@@ -52,6 +53,7 @@
     }
     #top-menu-list {
       opacity: 1;
+      background-color: #fff;
     }
     #menu-list-container {
       visibility: visible;
