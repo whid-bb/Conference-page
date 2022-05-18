@@ -7,7 +7,7 @@
   --light-grey-bg: #555;
 }
 
-$failFont: Arial, sans-serif;
+$failFont: 'Arial', sans-serif;
 
 @import 'utils/reset';
 
@@ -41,7 +41,7 @@ $failFont: Arial, sans-serif;
 
 body {
   min-height: 2000px;
-  font-family: 'lato-normal';
+  font-family: 'lato-normal', $failFont;
   color: var(--dark-grey);
   min-width: 278px;
 }

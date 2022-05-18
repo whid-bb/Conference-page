@@ -37,7 +37,7 @@
 .sc-ico-container {
   display: flex;
   align-items: center;
-  font-family: 'lato-bold';
+  font-family: 'lato-bold', $failFont;
 
   .pc-ico-text {
     margin: 1rem;

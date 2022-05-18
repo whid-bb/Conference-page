@@ -13,6 +13,17 @@
   transition: all 0.3s ease-in-out;
 }
 
+.ss-speaker-img {
+  position: relative;
+
+  img {
+    position: relative;
+    max-width: 100%;
+    z-index: 5;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 #featured-speakers {
   .section-head {
     h2 {
@@ -36,19 +47,9 @@
     }
   }
 
-  .ss-speaker-img {
-    position: relative;
-
-    img {
-      position: relative;
-      max-width: 100%;
-      z-index: 5;
-      transition: all 0.3s ease-in-out;
-    }
-  }
-
   .speaker-desc {
     margin-left: 1rem;
+
     p {
       color: var(--dark-grey);
     }

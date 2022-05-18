@@ -21,7 +21,7 @@
   }
 
   h1 {
-    font-family: 'cocogoose';
+    font-family: 'cocogoose', $failFont;
     font-size: clamp(1.3rem, 7vw, 4rem);
     text-transform: uppercase;
     background-image: url(../img/technology.jpg);
@@ -29,22 +29,17 @@
     background-clip: text;
     background-position: 20% 20%;
     color: transparent;
-    // text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    // overflow: hidden;
   }
 }
 
 #mh-text-desc-box {
   padding: 1rem;
   border: 5px solid #fff;
-
-  p {
-  }
 }
 
 #conference-date {
-  font-family: 'lato-black';
-  font-size: clamp(1.2rem, 7vw, 3rem); /* stylelint-disable-line */
+  font-family: 'lato-black', $failFont;
+  font-size: clamp(1.2rem, 7vw, 3rem);
 
   p {
     font-weight: bold;

@@ -10,7 +10,7 @@
   }
 
   .section-head {
-    font-family: 'lato-bold';
+    font-family: 'lato-bold', $failFont;
 
     h2 {
       color: #fff;
@@ -44,9 +44,6 @@
 
     &:last-child {
       margin-bottom: 0;
-    }
-
-    .sc-desc {
     }
   }
 }
