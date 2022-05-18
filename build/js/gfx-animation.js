@@ -1,6 +1,14 @@
 const header = document.getElementById('main-top-header');
 const headGfx = document.querySelectorAll('.header-gfx');
-const speed = Math.floor(Math.random() * (-10 - 10) + 10);
+
+const setAttrSpeed = () => {
+  const speed = Math.floor(Math.random() * (-10 - 10) + 10);
+  return speed !== 0 ? speed : setAttrSpeed();
+};
+
+headGfx.forEach((gfx) => {
+  gfx.setAttribute('data-speed', setAttrSpeed());
+});
 
 document.addEventListener('mousemove', (e) => {
   headGfx.forEach((gfx) => {
