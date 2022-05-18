@@ -55,6 +55,17 @@ button {
   cursor: pointer;
 }
 
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.body-fixed {
+  position: fixed;
+  overflow: hidden;
+}
+
 @import 'utils/breakpoints';
 @import 'header';
 @import 'utils/helpers';

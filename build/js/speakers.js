@@ -60,7 +60,7 @@ const fspeakers = [
 ];
 
 const speakerSection = document.getElementById('featured-speakers');
-let speakersSectionContent = '';
+let speakersSectionContent = '<div class="content">';
 
 fspeakers.forEach((speaker, i) => {
   if (!speaker.header) {
@@ -94,7 +94,6 @@ fspeakers.forEach((speaker, i) => {
       `;
   }
 });
+speakersSectionContent += '</div>';
 
 speakerSection.insertAdjacentHTML('afterbegin', speakersSectionContent);
-
-console.log(speakersSectionContent);
