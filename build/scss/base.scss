@@ -41,7 +41,6 @@ $failFont: 'Arial', sans-serif;
 }
 
 body {
-  min-height: 2000px;
   font-family: 'lato-normal', $failFont;
   color: var(--dark-grey);
   min-width: 278px;
@@ -78,3 +77,4 @@ button {
 @import 'about-page/header';
 @import 'about-page/about-logo';
 @import 'about-page/last';
+@import 'about-page/footer';

@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   entry: {
     index: ['./build/index.js', './build/scss/base.scss'],
-    about: ['./build/about.js', './build/scss/base.scss'],
+    about: './build/about.js',
   },
   devtool: 'inline-source-map',
   devServer: {
