@@ -22,14 +22,14 @@
   }
 
   p.head-text {
-    font-size: clamp(1rem, 5vw, 2.3rem);
+    font-size: clamp(1rem, 4vw, 2.3rem);
     color: var(--light-orange);
     font-weight: normal;
   }
 
   h1 {
     font-family: 'cocogoose', $failFont;
-    font-size: clamp(1.3rem, 7vw, 4rem);
+    font-size: clamp(1.3rem, 5vw, 4rem);
     text-transform: uppercase;
     background-image: url(../img/technology.jpg);
     background-repeat: no-repeat;
@@ -37,6 +37,7 @@
     background-position: 20% 20%;
     background-size: cover;
     color: transparent;
+    max-width: 900px;
   }
 }
 
