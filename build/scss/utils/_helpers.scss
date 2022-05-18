@@ -23,3 +23,10 @@
     color: var(--light-grey-bg);
   }
 }
+
+@mixin hrBelow {
+  content: '';
+
+  height: 2px;
+  display: block;
+}

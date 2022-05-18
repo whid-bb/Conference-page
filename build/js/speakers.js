@@ -69,7 +69,9 @@ fspeakers.forEach((speaker, i) => {
             <div class="sc-ico-container">
                 <div class="ss-speaker-img">
                     <div class="fs-bg-img"></div>
-                    <img src="${speaker.img}" alt="Image of ${speaker.name}">
+                    <img src="${speaker.img}" alt="Image of ${
+      speaker.name
+    }" width="400px">
                 </div>
             </div>
             <div class="speaker-desc">

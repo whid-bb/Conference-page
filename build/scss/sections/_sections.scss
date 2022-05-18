@@ -19,12 +19,10 @@
       align-items: center;
 
       &::after {
-        content: '';
-        width: 3rem;
-        height: 2px;
         background: var(--orange);
-        display: block;
         margin-top: 1rem;
+        width: 3rem;
+        @include hrBelow;
       }
     }
   }
