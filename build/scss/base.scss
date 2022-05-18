@@ -55,6 +55,12 @@ button {
   cursor: pointer;
 }
 
+a {
+  &:visited {
+    color: var(--dark-grey);
+  }
+}
+
 .content {
   width: min(100% - 3rem);
   margin-inline: auto;

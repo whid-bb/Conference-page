@@ -88,6 +88,13 @@
     }
   }
 
+  #menu-logo-link {
+    display: none;
+    @include md() {
+      display: block;
+    }
+  }
+
   #main-header-overlay {
     position: absolute;
     background-color: rgba(238, 238, 240, 0.95);
