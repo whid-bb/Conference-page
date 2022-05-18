@@ -5,6 +5,14 @@
   justify-content: flex-start;
   width: min(100% - 2rem);
   margin-inline: auto;
+  @include md() {
+    max-width: 67vw;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: unset;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
 
   > div {
     &:first-child {
@@ -28,6 +36,7 @@
     background-repeat: no-repeat;
     background-clip: text;
     background-position: 20% 20%;
+    background-size: cover;
     color: transparent;
   }
 }
