@@ -49,13 +49,7 @@ table {
 }
 
 :where([contenteditable]) {
-  -moz-user-modify: read-write;
-  -webkit-user-modify: read-write;
   word-wrap: break-word;
-}
-
-:where([draggable='true']) {
-  -webkit-user-drag: element;
 }
 
 @font-face {
@@ -447,7 +441,6 @@ a:visited {
   text-transform: uppercase;
   background-image: url(images/30859c86c7126e9fb214.jpg);
   background-repeat: no-repeat;
-  -webkit-background-clip: text;
   /* stylelint-disable-next-line */
   background-clip: text;
   background-position: 20% 20%;
@@ -465,7 +458,6 @@ a:visited {
   text-transform: uppercase;
   background-image: url(images/30859c86c7126e9fb214.jpg);
   background-repeat: no-repeat;
-  -webkit-background-clip: text;
   /* stylelint-disable-next-line */
   background-clip: text;
   background-position: 20% 20%;
@@ -575,8 +567,6 @@ a:visited {
 @media (min-width: 768px) {
   #mh-text-desc-box {
     /* stylelint-disable */
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
     max-width: fit-content;
     /* stylelint-enable */
   }
