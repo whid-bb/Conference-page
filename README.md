@@ -18,6 +18,10 @@
 
 - LinkedIn: [Bartosz](https://www.linkedin.com/in/bartosz-ka%C5%BAmierczak-46a810235/)
 
+## Inspiration
+
+- Many thanks to [Cindy Shin](https://www.behance.net/adagio07) in Behance which design I used for this project.
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

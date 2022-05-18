@@ -12,7 +12,6 @@ headGfx.forEach((gfx) => {
 
 header.addEventListener('mousemove', (e) => {
   headGfx.forEach((gfx) => {
-    // const speed = Math.floor(Math.random() * (-10 - 10) + 10);
     const x = (window.innerWidth - e.pageX * gfx.dataset.speed) / 100;
     const y = (window.innerHeight - e.pageY * gfx.dataset.speed) / 100;
     gfx.style.transform = `translateX(${x}px) translateY(${y}px)`;

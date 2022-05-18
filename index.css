@@ -946,6 +946,11 @@ a:visited {
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
+  align-items: center;
+}
+
+#page-footer #main-text h1, .main-text .logo {
+  font-size: max(1.85rem, min(5vw, 2rem));
 }
 
 .about-footer #footer-content h2,
@@ -1050,15 +1055,14 @@ a:visited {
 #last-conf .lc-img-container {
   margin-top: 3rem;
   display: flex;
+  flex-direction: column;
+  
 }
 
 #last-conf .lc-img-container .lcimg-item {
   position: relative;
   margin-left: 10px;
-}
-
-#last-conf .lc-img-container .lcimg-item:first-of-type {
-  margin-left: 0;
+  margin-top:1rem;
 }
 
 #last-conf .lc-img-container .lcimg-item img {
@@ -1115,5 +1119,13 @@ a:visited {
 @media (min-width: 768px) {
   #last-conf .section-container .section-content {
     flex-direction: column;
+  }
+
+  #last-conf .lc-img-container .lcimg-item:first-of-type {
+    margin-left: 0;
+  }
+
+  #last-conf .lc-img-container {
+    flex-direction: row;
   }
 }

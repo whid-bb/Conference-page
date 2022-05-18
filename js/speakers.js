@@ -1,10 +1,3 @@
-// import Shuntaro from '../img/speakers/Shuntaro-Furukawa.webp';
-// import Sundar from '../img/speakers/Sundar-Pichai.webp';
-// import Susan from '../img/speakers/Susan-Wojcicki.webp';
-// import Tara from '../img/speakers/Tara-Reed.webp';
-// import Tristan from '../img/speakers/Tristan-Harris.webp';
-// import Vanessa from '../img/speakers/Vanessa-Guthrie.webp';
-
 const fspeakers = [
   {
     header: 'Featured Speakers',
