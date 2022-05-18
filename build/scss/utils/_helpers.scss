@@ -1,6 +1,9 @@
 .menu--highlight,
 .menu--highlight-border {
   color: var(--orange);
+  a {
+    color: var(--orange);
+  }
 }
 
 .menu--highlight-border {

@@ -10,6 +10,10 @@
   @include md() {
   }
 
+  a {
+    text-decoration: none;
+  }
+
   #menu-top-info {
     display: none;
     padding: 0.1em 1em;
