@@ -8,12 +8,16 @@ module.exports = {
   entry: {
     index: ['./build/index.js', './build/scss/base.scss'],
   },
-  // devtool: 'inline-source-map',
+  devtool: 'inline-source-map',
   devServer: {
     static: './dist',
     watchFiles: {
       paths: ['./build/**/*'],
     },
+  },
+
+  optimization: {
+    runtimeChunk: 'single',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -27,7 +31,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, '../dist'),
     clean: true,
-    assetModuleFilename: './[hash][ext]',
+    assetModuleFilename: 'images/[hash][ext]',
   },
 
   module: {
@@ -72,8 +76,5 @@ module.exports = {
         type: 'asset/resource',
       },
     ],
-  },
-  optimization: {
-    runtimeChunk: 'single',
   },
 };
