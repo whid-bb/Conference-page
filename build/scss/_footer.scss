@@ -1,0 +1,11 @@
+#page-footer {
+  #footer-content {
+    display: flex;
+    margin: 5rem auto;
+    justify-content: space-around;
+    h2 {
+      font-family: 'cocogoose', $failFont;
+      font-size: clamp(0.5rem, 10vw, 1.5rem); /* stylelint-disable-line */
+    }
+  }
+}
