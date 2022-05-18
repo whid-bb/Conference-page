@@ -26,19 +26,20 @@
     color: var(--light-orange);
     font-weight: normal;
   }
+}
 
-  h1 {
-    font-family: 'cocogoose', $failFont;
-    font-size: clamp(1.3rem, 5vw, 4rem);
-    text-transform: uppercase;
-    background-image: url(../img/technology.jpg);
-    background-repeat: no-repeat;
-    background-clip: text;
-    background-position: 20% 20%;
-    background-size: cover;
-    color: transparent;
-    max-width: 900px;
-  }
+#main-text h1,
+.main-text .logo {
+  font-family: 'cocogoose', $failFont;
+  font-size: clamp(1.3rem, 5vw, 4rem);
+  text-transform: uppercase;
+  background-image: url(../img/technology.jpg);
+  background-repeat: no-repeat;
+  background-clip: text;
+  background-position: 20% 20%;
+  background-size: cover;
+  color: transparent;
+  max-width: 900px;
 }
 
 #mh-text-desc-box {

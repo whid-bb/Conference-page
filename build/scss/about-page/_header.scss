@@ -1,0 +1,33 @@
+.about-page-header {
+  #main-header-content {
+    margin-inline: auto;
+    text-align: center;
+    margin-left: unset;
+    margin-right: unset;
+    max-width: unset;
+
+    h1 {
+      margin: 0 auto;
+    }
+
+    #mh-text-desc-box {
+      background-color: #fff;
+      border: 5px solid var(--light-grey);
+    }
+  }
+
+  #conference-contact {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+#conference-contact {
+  .cc-email {
+    a {
+      font-family: 'lato-bold', $failFont;
+      text-decoration: underline;
+      color: #000;
+    }
+  }
+}

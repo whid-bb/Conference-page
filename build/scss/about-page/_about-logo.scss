@@ -1,0 +1,19 @@
+#about-logo {
+  border-top: 5px solid var(--light-grey);
+
+  h2 {
+    color: var(--dark-grey);
+  }
+
+  p {
+    color: #000;
+    text-align: center;
+  }
+
+  .main-text {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 2rem 3rem;
+    border: 5px solid var(--light-grey);
+  }
+}

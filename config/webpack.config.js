@@ -7,6 +7,7 @@ module.exports = {
   mode: 'development',
   entry: {
     index: ['./build/index.js', './build/scss/base.scss'],
+    about: ['./build/about.js', './build/scss/base.scss'],
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -21,8 +22,13 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      minify: true,
+      minify: false,
       template: './build/index.html',
+    }),
+    new HtmlWebpackPlugin({
+      minify: false,
+      filename: 'about.html',
+      template: './build/about.html',
     }),
     new MiniCssExtractPlugin(),
     new WebpackManifestPlugin(),
