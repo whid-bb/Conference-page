@@ -56,7 +56,8 @@ button {
 }
 
 .content {
-  max-width: 1600px;
+  width: min(100% - 3rem);
+  margin-inline: auto;
   margin: 0 auto;
   position: relative;
 }

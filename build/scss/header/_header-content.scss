@@ -50,8 +50,9 @@
 
 #conference-date {
   font-family: 'lato-black', $failFont;
-  font-size: clamp(1.2rem, 7vw, 3rem);
-
+  h2 {
+    font-size: clamp(1.2rem, 4vw, 2.5rem);
+  }
   p {
     font-weight: bold;
   }
