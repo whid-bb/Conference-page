@@ -60,7 +60,7 @@ const fspeakers = [
 ];
 
 const speakerSection = document.getElementById('featured-speakers');
-let speakersSectionContent = '<div class="content">';
+let speakersSectionContent = '';
 
 fspeakers.forEach((speaker, i) => {
   if (!speaker.header) {
@@ -84,13 +84,14 @@ fspeakers.forEach((speaker, i) => {
                     <button class="speaker-read-more" data-speaker-read=${i}>(read more)</button>
                 </p>
             </div>
-        </div>        
+        </div>         
         `;
   } else if (speaker.header) {
     speakersSectionContent += `
       <div class="section-head">
             <h2>${speaker.header}</h2>
         </div>
+        <div class="content section-container">
       `;
   }
 });

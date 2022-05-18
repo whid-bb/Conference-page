@@ -1,5 +1,5 @@
 .fs-bg-img {
-  background: repeating-conic-gradient(#fff 0deg 90deg, #000 0 180deg) 0 0/20%
+  background: repeating-conic-gradient(#fff 0deg 90deg, #ccc 0 180deg) 0 0/20%
     20%;
   margin: 15px;
   padding: 10px;
@@ -31,6 +31,23 @@
     }
   }
 
+  @include md() {
+    max-width: 70%;
+    margin-inline: auto;
+  }
+
+  @include big() {
+    width: min(100% - 28rem);
+    margin-inline: auto;
+  }
+
+  .section-container {
+    @include md() {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
   .section-box-content {
     &:hover {
       .fs-bg-img {
@@ -44,6 +61,12 @@
         transform: perspective(954px) rotateZ(-1deg) rotateX(3deg) rotateY(5deg);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       }
+    }
+    @include md() {
+      flex: 1 0 32%;
+      flex-direction: row;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
     }
   }
 

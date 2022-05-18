@@ -4,6 +4,10 @@
 
   .section-box-content {
     background: rgba(255, 255, 255, 0.2);
+    @include md() {
+      max-width: 184px;
+      min-width: 184px;
+    }
   }
 }
 
