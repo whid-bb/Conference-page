@@ -60,18 +60,19 @@ const fspeakers = [
 ];
 
 const speakerSection = document.getElementById('featured-speakers');
-let speakersSectionContent = '';
+if (speakerSection) {
+  let speakersSectionContent = '';
 
-fspeakers.forEach((speaker, i) => {
-  if (!speaker.header) {
-    speakersSectionContent += `
+  fspeakers.forEach((speaker, i) => {
+    if (!speaker.header) {
+      speakersSectionContent += `
         <div class="section-box-content">
             <div class="sc-ico-container">
                 <div class="ss-speaker-img">
                     <div class="fs-bg-img"></div>
                     <img src="${speaker.img}" alt="Image of ${
-      speaker.name
-    }" width="400px">
+        speaker.name
+      }" width="400px">
                 </div>
             </div>
             <div class="speaker-desc">
@@ -86,15 +87,16 @@ fspeakers.forEach((speaker, i) => {
             </div>
         </div>         
         `;
-  } else if (speaker.header) {
-    speakersSectionContent += `
+    } else if (speaker.header) {
+      speakersSectionContent += `
       <div class="section-head">
             <h2>${speaker.header}</h2>
         </div>
         <div class="content section-container">
       `;
-  }
-});
-speakersSectionContent += '</div>';
+    }
+  });
+  speakersSectionContent += '</div>';
 
-speakerSection.insertAdjacentHTML('afterbegin', speakersSectionContent);
+  speakerSection.insertAdjacentHTML('afterbegin', speakersSectionContent);
+}

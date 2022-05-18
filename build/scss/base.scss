@@ -1,6 +1,7 @@
 :root {
   --dark-grey: #272a31;
   --orange: #ee5242;
+  --orangeRgb: 238, 82, 66;
   --light-orange: #f6a50e;
   --light-grey: #d3d3d3;
   --grey-bg: #2e2e2e;
@@ -76,3 +77,4 @@ button {
 @import 'footer';
 @import 'about-page/header';
 @import 'about-page/about-logo';
+@import 'about-page/last';
