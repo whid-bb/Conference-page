@@ -44,6 +44,8 @@
 #mh-text-desc-box {
   padding: 1rem;
   border: 5px solid #fff;
+  position: relative;
+  background-color: rgb(238, 238, 240);
   @include md() {
     max-width: fit-content;
   }

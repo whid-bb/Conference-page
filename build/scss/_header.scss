@@ -1,10 +1,12 @@
 @import 'nav/site-navigation';
+@import 'header/header-gfx';
 
 #main-top-header {
   display: flex;
   min-height: 30rem;
   align-items: center;
   flex-direction: column;
+  position: relative;
   @include md() {
   }
 
