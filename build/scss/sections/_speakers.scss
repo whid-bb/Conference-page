@@ -75,6 +75,7 @@
 
     p {
       color: var(--dark-grey);
+      text-align: left;
     }
 
     h3 {
@@ -96,6 +97,11 @@
         width: 1.5rem;
         @include hrBelow;
       }
+    }
+
+    .speaker-read-more {
+      font-family: 'lato-bold', $failFont;
+      color: var(--orange);
     }
   }
 }
