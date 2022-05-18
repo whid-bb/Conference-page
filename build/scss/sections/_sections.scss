@@ -32,6 +32,11 @@
     flex-wrap: wrap;
     margin: 2rem 0;
     flex-direction: column;
+
+    @include md() {
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 
   .section-box-content {
@@ -41,9 +46,22 @@
     align-items: center;
     padding: 1rem;
     margin-bottom: 1rem;
+    @include md() {
+      max-width: 184px;
+      min-width: 184px;
+      flex-direction: column;
+      text-align: center;
+      flex: 1 0 18%;
+      margin: 10px;
 
-    &:last-child {
-      margin-bottom: 0;
+      &:last-child {
+        margin-bottom: un;
+      }
+    }
+    @include mdMax() {
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

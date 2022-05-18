@@ -39,6 +39,12 @@
   align-items: center;
   font-family: 'lato-bold', $failFont;
 
+  @include md() {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
   .pc-ico-text {
     margin: 1rem;
     min-width: 90px;
