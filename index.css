@@ -449,6 +449,16 @@ a:visited {
   max-width: 900px;
 }
 
+.about-page-header #main-header-content h1 {
+  margin: 0 auto;
+}
+
+#page-footer #main-text h1,
+.main-text .logo {
+  /* stylelint-disable-next-line */
+  font-size: max(1.85rem, min(5vw, 2rem));
+}
+
 #main-top-header .logo {
   display: none;
   font-family: 'cocogoose', 'Arial', sans-serif;
@@ -949,10 +959,6 @@ a:visited {
   align-items: center;
 }
 
-#page-footer #main-text h1, .main-text .logo {
-  font-size: max(1.85rem, min(5vw, 2rem));
-}
-
 .about-footer #footer-content h2,
 .about-footer #footer-content p {
   color: #fff;
@@ -971,10 +977,6 @@ a:visited {
   margin-right: initial;
   max-width: none;
   max-width: initial;
-}
-
-.about-page-header #main-header-content h1 {
-  margin: 0 auto;
 }
 
 .about-page-header #main-header-content #mh-text-desc-box {
@@ -1056,13 +1058,12 @@ a:visited {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
-  
 }
 
 #last-conf .lc-img-container .lcimg-item {
   position: relative;
   margin-left: 10px;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 #last-conf .lc-img-container .lcimg-item img {
