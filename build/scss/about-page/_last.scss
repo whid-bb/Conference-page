@@ -43,5 +43,14 @@
         font-size: 1rem;
       }
     }
+    @include md() {
+      max-width: 70%;
+      margin-inline: auto;
+    }
+
+    @include big() {
+      width: min(100% - 41rem);
+      margin-inline: auto;
+    }
   }
 }

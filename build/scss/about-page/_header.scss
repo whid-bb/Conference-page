@@ -13,6 +13,15 @@
     #mh-text-desc-box {
       background-color: #fff;
       border: 5px solid var(--light-grey);
+      @include md() {
+        max-width: 70%;
+        margin-inline: auto;
+      }
+
+      @include big() {
+        width: min(100% - 41rem);
+        margin-inline: auto;
+      }
     }
   }
 

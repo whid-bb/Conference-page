@@ -1,5 +1,16 @@
 #about-logo {
   border-top: 3px solid var(--light-grey);
+  .section-content {
+    @include md() {
+      max-width: 70%;
+      margin-inline: auto;
+    }
+
+    @include big() {
+      width: min(100% - 28rem);
+      margin-inline: auto;
+    }
+  }
 
   h2 {
     color: var(--dark-grey);
