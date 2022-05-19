@@ -442,6 +442,8 @@ a:visited {
   background-image: url(images/30859c86c7126e9fb214.jpg);
   background-repeat: no-repeat;
   /* stylelint-disable-next-line */
+  -webkit-background-clip: text;
+  /* stylelint-disable-next-line */
   background-clip: text;
   background-position: 20% 20%;
   background-size: cover;
@@ -468,6 +470,8 @@ a:visited {
   text-transform: uppercase;
   background-image: url(images/30859c86c7126e9fb214.jpg);
   background-repeat: no-repeat;
+  /* stylelint-disable-next-line */
+  -webkit-background-clip: text;
   /* stylelint-disable-next-line */
   background-clip: text;
   background-position: 20% 20%;
