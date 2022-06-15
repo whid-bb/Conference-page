@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-- Link: [New Technologies Conference](https://whid-bb.github.io/capstone-module-one/)
+- Link: [New Technologies Conference](https://whid-bb.github.io/Conference-page/)
 
 ## Authors
 
